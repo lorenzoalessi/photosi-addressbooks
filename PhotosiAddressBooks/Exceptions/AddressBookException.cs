@@ -1,5 +1,8 @@
-﻿namespace PhotosiAddressBooks.Exceptions;
+﻿using System.Diagnostics.CodeAnalysis;
 
+namespace PhotosiAddressBooks.Exceptions;
+
+[ExcludeFromCodeCoverage]
 public class AddressBookException : Exception
 {
     public AddressBookException()

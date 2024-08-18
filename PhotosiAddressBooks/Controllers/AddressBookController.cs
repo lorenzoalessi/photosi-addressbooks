@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Diagnostics.CodeAnalysis;
+using Microsoft.AspNetCore.Mvc;
 using PhotosiAddressBooks.Dto;
 using PhotosiAddressBooks.Exceptions;
 using PhotosiAddressBooks.Service;
 
 namespace PhotosiAddressBooks.Controllers;
 
+// I metodi dei controller vengono esclusi perche si potrebbero testare tramite integration test al posto di unit test
+[ExcludeFromCodeCoverage]
 [Route("api/v1/address-books")]
 [ApiController]
 public class AddressBookController : ControllerBase

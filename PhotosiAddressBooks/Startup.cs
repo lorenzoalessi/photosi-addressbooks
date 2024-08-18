@@ -1,10 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Diagnostics.CodeAnalysis;
+using Microsoft.EntityFrameworkCore;
 using PhotosiAddressBooks.Model;
 using PhotosiAddressBooks.Repository.AddressBook;
 using PhotosiAddressBooks.Service;
 
 namespace PhotosiAddressBooks;
 
+[ExcludeFromCodeCoverage]
 public class Startup
 {
     private readonly WebApplicationBuilder _builder;
