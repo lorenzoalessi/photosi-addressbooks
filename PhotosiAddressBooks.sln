@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotosiAddressBooks", "PhotosiAddressBooks\PhotosiAddressBooks.csproj", "{CA732F7B-84C3-4FD1-8380-E0FEFE8840A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotosiAddressBooks.xUnitTest", "PhotosiAddressBooks.xUnitTest\PhotosiAddressBooks.xUnitTest.csproj", "{AD98EC14-6C65-40BC-9B76-A713E5FBAFD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA732F7B-84C3-4FD1-8380-E0FEFE8840A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA732F7B-84C3-4FD1-8380-E0FEFE8840A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA732F7B-84C3-4FD1-8380-E0FEFE8840A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA732F7B-84C3-4FD1-8380-E0FEFE8840A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD98EC14-6C65-40BC-9B76-A713E5FBAFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD98EC14-6C65-40BC-9B76-A713E5FBAFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD98EC14-6C65-40BC-9B76-A713E5FBAFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD98EC14-6C65-40BC-9B76-A713E5FBAFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
